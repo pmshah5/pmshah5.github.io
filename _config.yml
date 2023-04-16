@@ -6,8 +6,8 @@
 
 ### Site Settings ###
 title               : Pranjali Shah 
-description         : >-
-                      I am definitely not a corgi!
+description         : I am a master's student in the Urban Planning program at the University of Illinois Urbana-Champaign, graduating in May'23. My interest area is mainly focused on Transportation planning, modeling, and active transportation. I am a Civil engineer with 3 years of work experience in Planning & Engineering. 
+ 
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : jnaiman               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
