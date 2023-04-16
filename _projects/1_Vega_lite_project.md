@@ -1,5 +1,5 @@
 ---
-name: Vega Lite Example Project
+name: Assignment 10
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/visualization.png
 description: This is a assignment 10.
@@ -23,30 +23,12 @@ We can use a vegachart HTML tag like so:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/dashboarding.json" style="width: 100%"></vegachart>
 
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
 
 
-## Search The Data & Methods
+## Description 
 
-Below is where we can put some links to both the data and the analysis code as buttons:
-
-```
-<div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html" text="The Analysis" %}
-</div>
-```
+To prepare the above interactive dashboard we used the dataset uploaded here [link](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/raw/main/data/michigan_lld.flt) The dataset represent the land cover information for the states of USA. Here we used temprature as the parameter. The left side of the box chart is the visualization of higher side temprature range all the states. It also allow to select the box and pan move. In the right side of the dashboard, the bar chart displays the frequency for the selected bin.    
 
 <!-- these are written in a combo of html and liquid --> 
 
-<div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
-</div>
 
