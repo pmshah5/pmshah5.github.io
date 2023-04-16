@@ -2,7 +2,7 @@
 name: Assignment 10
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/p_1.png
-description: This is a assignment 10.
+description: This is assignment 10.
 custom_js:
   - vega.min
   - vega-lite.min
