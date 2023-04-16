@@ -9,7 +9,7 @@ title               : Pranjali Shah
 description         : Master's student in the Urban Planning program at the University of Illinois Urbana-Champaign, graduating in May'23. Focus Area: Transportation planning, modeling, and active transportation. I am a Civil engineer with 3 years of work experience in Planning & Engineering. 
  
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
-#                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
+                       #otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : pmshah5/pmshah5.github.io               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
