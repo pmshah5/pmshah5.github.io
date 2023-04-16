@@ -6,10 +6,13 @@
 
 ### Site Settings ###
 title               : Pranjali Shah 
-description         : Master's student in the Urban Planning program at the University of Illinois Urbana-Champaign, graduating in May'23.
+description         : I am a master's student in the Urban Planning program at the University of Illinois Urbana-Champaign, graduating in May'23. 
+                     My interest area is mainly focused on Transportation planning, modeling, and active transportation. 
+                     I am a Civil engineer with 3 years of work experience in Planning & Engineering. 
+ 
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
-                       #otherwise will be hosted at <your-username>.github.io/{{base_url}}
-repository          : jnaiman # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+#                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
+repository          : jnaiman               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -34,7 +37,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Pranjali Shah
-  image             : https://github.com/pmshah5/pmshah5.github.io/blob/main/assets/pngs/APAHeadshots-101843.png
+  image             : https://media.licdn.com/media/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png
 #  behance           : your_username
 # dribbble          : your_username
   email             : pmshah5@illinois.edu
@@ -43,16 +46,16 @@ author:
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
- linkedin          : https://www.linkedin.com/in/pranjali-shah-uiuc/
+#  linkedin          : https://www.linkedin.com/in/pranjali-shah-uiuc/
 #  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 #  twitch            : your_username
- # twitter           : your_username
+  twitter           : your_username
 #  vimeo             : your_username
-#  youtube           : your_channel_name
+  youtube           : your_channel_name
 # keybase           : your_username
 
 
