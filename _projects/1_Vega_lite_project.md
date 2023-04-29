@@ -53,7 +53,7 @@ We can use a vegachart HTML tag like so:
 
 Interactive visualization 1
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/fp_1.json" style="width: 100%"></vegachart>
+<vegachart schema-url="https://github.com/pmshah5/pmshah5.github.io/raw/BRANCH/assets/json/fp_1.json" style="width: 100%"></vegachart>
 
 
 
