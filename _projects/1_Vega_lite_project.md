@@ -51,12 +51,15 @@ While looking at the crash trend from 2015-2022, number of crashes were increasi
 ## Chart-1
 We can use a vegachart HTML tag like so:
 
+Interactive visualization 1
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/fp_1.json" style="width: 100%"></vegachart>
 
 
 
 ## Chart-2
+
+Interactive Visuzlization 2
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/fp_2.json" style="width: 100%"></vegachart>
    
