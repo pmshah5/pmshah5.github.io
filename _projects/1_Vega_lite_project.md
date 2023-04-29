@@ -20,9 +20,23 @@ The primary dataset used for creating visualization is from City of Chicago Data
 
 The Traffic Crashes - Crashes dataset available on the City of Chicago's data portal contains detailed information about motor vehicle crashes reported to the police department within the city limits. The dataset includes data on various factors that contribute to crashes, such as weather conditions, types of vehicles involved, and driver actions. Additionally, it provides information about the severity of each crash and the number of injuries or fatalities that resulted. This dataset is an important resource for researchers, policymakers, and city officials who are interested in improving traffic safety and reducing the number of crashes on Chicago's streets. With over 1.1 million records spanning from 2014 to the present, this dataset offers a comprehensive view of traffic crashes in the city and can help inform evidence-based interventions to prevent future accidents.
 
-Followin is an image showing the crash datadistribution from 2014 to 2023 in Chicago MPA.
+Followin is an image showing the crash data distribution from 2014 to 2023 in Chicago MPA. I prepared this graph using pandas and matplotlib in python. Here is the link for the notebook. [Link](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/data)
 
-![Crash Data Distribution 2014-2023, Chicago MPA](/assets/pngs/crash_1.png)
+<div class="left">
+{% include elements/button.html link="https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/data" text="Data Source" %}
+</div>
+
+<div class="right">
+{% include elements/button.html link="https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/data" text="Python File" %}
+</div>
+<br>
+<br>
+<br>
+
+![Crash Data Distribution 2013-2023, Chicago MPA](/assets/pngs/crash_1.png)
+
+In this dataset there are 716720 accidents information provided from 2013 till today. However, It is important to notice here that crash information for 2013 and 2014 is not included in this dataset. Therefore, the crash dataset contains information from 2015 till today. There are total 49 columns which provide different details related to specific information. Information like spatial location, crash type, primary cause, fatality, speed, weather condition, road condition, day, month and time of accident is provided for 716720 accidents. 
+While looking at the crash trend from 2015-2022, number of crashes were increasing exponentially. 
 
 ## Chart-1
 We can use a vegachart HTML tag like so:
