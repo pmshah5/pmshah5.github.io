@@ -2,7 +2,7 @@
 name: Final Project
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/Chicago_overview_map.png
-description: Crash Data and Visualization for 2022 & 2023- Chicago Metropolitan Area, IL.Image source: https://commons.wikimedia.org/ 
+description: Crash Data and Visualization for 2022 & 2023- Chicago Metropolitan Area, IL.Image source: commons.wikimedia.org
 custom_js:
   - vega.min
   - vega-lite.min
