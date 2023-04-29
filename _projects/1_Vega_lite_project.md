@@ -16,6 +16,8 @@ custom_js:
 Example comes from this [dataset](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html) that was also used in [our test import script](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/week01/test_imports_week01.ipynb).
 
 
+## Details of CrashData
+
 ## Chart-1
 We can use a vegachart HTML tag like so:
 
@@ -31,6 +33,15 @@ We can use a vegachart HTML tag like so:
 
 To prepare the above interactive dashboard we used the dataset uploaded here [link](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/raw/main/data/michigan_lld.flt) The dataset represent the land cover information for the states of USA. Here we used temprature as the parameter. The left side of the box chart is the visualization of higher side temprature range all the states. It also allow to select the box and pan move. In the right side of the dashboard, the bar chart displays the frequency for the selected bin.    
 
+## Chart-3
 
+## Contexual Visualizations
 
+### Champaign County Traffic Crash Dashboard
+
+[Link for the Dashboard](https://crashdashboard.ccrpc.org/)
+
+### Florida Crash Dashboard
+
+[Link for the Dashboard](https://www.flhsmv.gov/traffic-crash-reports/crash-dashboard/)
 
