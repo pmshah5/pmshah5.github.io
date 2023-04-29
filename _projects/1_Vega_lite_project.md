@@ -49,11 +49,11 @@ While looking at the crash trend from 2015-2022, number of crashes were increasi
 - While creating json file using the filter dataset, I also struggled due to large file size. Interactive json file for 2nd and 3rd chart is larger than 200 MB. Therefore, I have used GitLFS tools to upload it online for the website rendering purpose.
 
 ## Chart-1
-We can use a vegachart HTML tag like so:
+We can use a vegachart HTML tag like so:Check
 
 Interactive visualization 1
 
-<vegachart schema-url="https://github.com/pmshah5/pmshah5.github.io/raw/BRANCH/assets/json/fp_1.json" style="width: 100%"></vegachart>
+<vegachart schema-url="https://github.com/pmshah5/pmshah5.github.io/raw/main/assets/json/fp_1.json" style="width: 100%"></vegachart>
 
 
 
