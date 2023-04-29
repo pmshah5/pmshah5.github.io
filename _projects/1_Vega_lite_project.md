@@ -13,10 +13,12 @@ custom_js:
 
 # Crash Data and Visualization for 2022 & 2023- Chicago Metropolitan Area, IL
 
-Example comes from this [dataset](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html) that was also used in [our test import script](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/week01/test_imports_week01.ipynb).
+The primary dataset used for creating visualization is from City of Chicago Data Portal. Link for the [dataset](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if).
 
 
 ## Details of CrashData
+
+The Traffic Crashes - Crashes dataset available on the City of Chicago's data portal contains detailed information about motor vehicle crashes reported to the police department within the city limits. The dataset includes data on various factors that contribute to crashes, such as weather conditions, types of vehicles involved, and driver actions. Additionally, it provides information about the severity of each crash and the number of injuries or fatalities that resulted. This dataset is an important resource for researchers, policymakers, and city officials who are interested in improving traffic safety and reducing the number of crashes on Chicago's streets. With over 1.1 million records spanning from 2014 to the present, this dataset offers a comprehensive view of traffic crashes in the city and can help inform evidence-based interventions to prevent future accidents.
 
 ## Chart-1
 We can use a vegachart HTML tag like so:
