@@ -38,6 +38,10 @@ Followin is an image showing the crash data distribution from 2014 to 2023 in Ch
 In this dataset there are 716720 accidents information provided from 2013 till today. However, It is important to notice here that crash information for 2013 and 2014 is not included in this dataset. Therefore, the crash dataset contains information from 2015 till today. There are total 49 columns which provide different details related to specific information. Information like spatial location, crash type, primary cause, fatality, speed, weather condition, road condition, day, month and time of accident is provided for 716720 accidents. 
 While looking at the crash trend from 2015-2022, number of crashes were increasing exponentially. 
 
+## Pre-data Processing 
+
+#### Due to the large size of the dataset (>300 MB), it required large amount of space, computational resources and more time. I tried to create interactive chart using the full dataset several times. However, my system couldn't handle it and causing an frequent crash. While using an online API 
+
 ## Chart-1
 We can use a vegachart HTML tag like so:
 
