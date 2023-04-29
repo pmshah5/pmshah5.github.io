@@ -20,14 +20,14 @@ The primary dataset used for creating visualization is from City of Chicago Data
 
 The Traffic Crashes - Crashes dataset available on the City of Chicago's data portal contains detailed information about motor vehicle crashes reported to the police department within the city limits. The dataset includes data on various factors that contribute to crashes, such as weather conditions, types of vehicles involved, and driver actions. Additionally, it provides information about the severity of each crash and the number of injuries or fatalities that resulted. This dataset is an important resource for researchers, policymakers, and city officials who are interested in improving traffic safety and reducing the number of crashes on Chicago's streets. With over 1.1 million records spanning from 2014 to the present, this dataset offers a comprehensive view of traffic crashes in the city and can help inform evidence-based interventions to prevent future accidents.
 
-Followin is an image showing the crash data distribution from 2014 to 2023 in Chicago MPA. I prepared this graph using pandas and matplotlib in python. Here is the link for the notebook. [Link](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/data)
+Followin is an image showing the crash data distribution from 2014 to 2023 in Chicago MPA. I prepared this graph using pandas and matplotlib in python. Here is the link for the notebook. [Link](https://github.com/pmshah5/pmshah5.github.io/blob/main/python_notebooks/Project_5.ipynb))
 
 <div class="left">
 {% include elements/button.html link="https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/data" text="Data Source" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/data" text="Python File" %}
+{% include elements/button.html link="https://github.com/pmshah5/pmshah5.github.io/blob/main/python_notebooks/Project_5.ipynb" text="Python File" %}
 </div>
 <br>
 <br>
