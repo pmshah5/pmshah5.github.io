@@ -1,6 +1,6 @@
 ---
 name: Final Project
-tools: [Python, HTML, vega-lite]
+tools: [Python, Alt air, vega-lite]
 image: assets/pngs/Chicago_overview_map.png
 description: Crash Data and Visualization for 2022 & 2023- Chicago Metropolitan Area, IL.Image source- commons.wikimedia.org
 custom_js:
