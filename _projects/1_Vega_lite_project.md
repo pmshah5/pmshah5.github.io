@@ -37,13 +37,13 @@ To prepare the above interactive dashboard we used the dataset uploaded here [li
 
 ## Chart-3
 
-## Contexual Visualizations
+### Contexual Visualizations
 
-### Champaign County Traffic Crash Dashboard
+- Champaign County Traffic Crash Dashboard
 
 [Link for the Dashboard](https://crashdashboard.ccrpc.org/)
 
-### Florida Crash Dashboard
+- Florida Crash Dashboard
 
 [Link for the Dashboard](https://www.flhsmv.gov/traffic-crash-reports/crash-dashboard/)
 
