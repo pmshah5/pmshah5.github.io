@@ -5,9 +5,11 @@
 # NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
 
 ### Site Settings ###
-title               : Jill Naiman 
-description         : >-
-                      I am definitely not a corgi!
+title               : Pranjali Shah 
+description         : I am a master's student in the Urban Planning program at the University of Illinois Urbana-Champaign, graduating in May'23. 
+                     My interest area is mainly focused on Transportation planning, modeling, and active transportation. 
+                     I am a Civil engineer with 3 years of work experience in Planning & Engineering. 
+ 
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : jnaiman               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
@@ -34,17 +36,17 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : A. P. Corgi
-  image             : https://dogtime.com/assets/uploads/gallery/pembroke-welsh-corgi-dog-breed-pictures/prance-8.jpg
+  name              : Pranjali Shah
+  image             : https://img.freepik.com/free-vector/womens-beauty-fashion-ad-poster-template_1441-3257.jpg?w=740&t=st=1681675247~exp=1681675847~hmac=0b892ab0a32eb6ecca215cf09dbd2e92c27a099154a1115a68f5f4ed43549d95
 #  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+  email             : pmshah5@illinois.edu
 #  facebook          : your_username
-  github            : jnaiman # JPN
+  github            : pmshah5 # JPN
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-#  linkedin          : your_username
+#  linkedin          : https://www.linkedin.com/in/pranjali-shah-uiuc/
 #  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
