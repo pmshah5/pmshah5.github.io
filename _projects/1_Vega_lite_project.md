@@ -76,6 +76,8 @@ Interactive visualization 1
 The overall aim for the visualization is to provide various interactive charts and maps which provide detailed insights into Crash data for 2022 and 2023 data for Chicago. Three charts are prepared in combination with interactivity and without interactivity. 
 
 Chart-1 displays the bar chart of primary cause of crash. Here top 10 causes for crash is shortlisted according to number of the crashes.The 'top_causes' variable is a Pandas created to count of the top 10 primary contributory causes of crashes in Chicago with number of Crashes.
+
+Chart-2 displays the spatial distribution of the crashes in the Chicago area. With hovering interactivity, it will allow you to check the information about the primary cause of crash and year. The data is 
    
 
 ## Chart-3
