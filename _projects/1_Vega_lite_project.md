@@ -2,7 +2,7 @@
 name: Final Project
 tools: [Python, Alt air, vega-lite]
 image: assets/pngs/Chicago_overview_map.png
-description: Crash Data and Visualization for 2022 & 2023- Chicago Metropolitan Area. Image source- commons.wikimedia.org
+description: Crash Data and Visualization for 2023- Chicago Metropolitan Area. Image source- commons.wikimedia.org
 custom_js:
   - vega.min
   - vega-lite.min
@@ -11,7 +11,7 @@ custom_js:
 ---
 
 
-# Crash Data and Visualization for 2022 & 2023- Chicago Metropolitan Area, IL
+# Crash Data and Visualization for 2023- Chicago Metropolitan Area, IL
 
 The primary dataset used for creating visualization is from City of Chicago Data Portal. Link for the [dataset](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if).
 
@@ -36,13 +36,13 @@ Followin is an image showing the crash data distribution from 2014 to 2023 in Ch
 ![Crash Data Distribution 2013-2023, Chicago MPA](/assets/pngs/crash_1.png)
 
 In this dataset there are 716720 accidents information provided from 2013 till today. However, It is important to notice here that crash information for 2013 and 2014 is not included in this dataset. Therefore, the crash dataset contains information from 2015 till today. There are total 49 columns which provide different details related to specific information. Information like spatial location, crash type, primary cause, fatality, speed, weather condition, road condition, day, month and time of accident is provided for 716720 accidents. 
-While looking at the crash trend from 2015-2022, number of crashes were increasing exponentially. 
+While looking at the crash trend from 2015-2023, number of crashes were increasing exponentially from 2015 to 2018. There is a slight decrease in the year of 2020 due to pandemic and less driving. 
 
 #### Pre-data Processing & Datafile size related issues
 
 - Due to the large size of the dataset (>300 MB), it required large amount of space, computational resources and more time. I tried to create interactive chart using the full dataset several times. However, my system couldn't handle it and causing an frequent crash. 
 
-- While using an online API, to directly use the file, it only allow to access 5000 datapoints without API token. Therefore, I have decided to prepare the visualization only using 2022 & 2023 data. These last 1.5 year data have approximatly 1,40,000 crash datapoints. Overall, handling and processing of filtered dataset was also difficult and complex task for me which require more computation resources and time. 
+- While using an online API, to directly use the file, it only allow to access 5000 datapoints without API token. Therefore, I have decided to prepare the visualization only using 2023 data. These last 1.5 year data have approximatly 1,40,000 crash datapoints. Overall, handling and processing of filtered dataset was also difficult and complex task for me which require more computation resources and time. 
 
 - The original python file which I used to access the data, create maps and visualization was large in size (>230 MB). Therefore, I have uploaded copy of the jupyter notebook without running it to save the space.
 
