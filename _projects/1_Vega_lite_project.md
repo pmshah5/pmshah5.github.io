@@ -22,7 +22,7 @@ The Traffic Crashes - Crashes dataset available on the City of Chicago's data po
 
 Followin is an image showing the crash datadistribution from 2014 to 2023 in Chicago MPA.
 
-![Crash Data Distribution 2014-2023, Chicago MPA](/assets/png/crash_1.png)
+![Crash Data Distribution 2014-2023, Chicago MPA](/assets/pngs/crash_1.png)
 
 ## Chart-1
 We can use a vegachart HTML tag like so:
