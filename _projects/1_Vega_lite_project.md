@@ -38,16 +38,19 @@ Followin is an image showing the crash data distribution from 2014 to 2023 in Ch
 In this dataset there are 716720 accidents information provided from 2013 till today. However, It is important to notice here that crash information for 2013 and 2014 is not included in this dataset. Therefore, the crash dataset contains information from 2015 till today. There are total 49 columns which provide different details related to specific information. Information like spatial location, crash type, primary cause, fatality, speed, weather condition, road condition, day, month and time of accident is provided for 716720 accidents. 
 While looking at the crash trend from 2015-2022, number of crashes were increasing exponentially. 
 
-## Pre-data Processing 
+## Pre-data Processing & Datafile size related issues
 
-#### Due to the large size of the dataset (>300 MB), it required large amount of space, computational resources and more time. I tried to create interactive chart using the full dataset several times. However, my system couldn't handle it and causing an frequent crash. While using an online API 
+#### Due to the large size of the dataset (>300 MB), it required large amount of space, computational resources and more time. I tried to create interactive chart using the full dataset several times. However, my system couldn't handle it and causing an frequent crash. 
+
+#### While using an online API, to directly use the file, it only allow to access 5000 datapoints without API token. Therefore, I have decided to prepare the visualization only using 2022 & 2023 data. These last 1.5 year data have approximatly 1,40,000 crash datapoints. Overall, handling and processing of filtered dataset was also difficult and complex task for me which require more computation resources and time. 
+
+#### The original python file which I used to access the data, create maps and visualization was large in size (>230 MB). Therefore, I have uploaded copy of the jupyter notebook without running it to save the space.
+
+#### While creating json file using the filter dataset, I also struggled due to large file size. Interactive json file for 2nd and 3rd chart is larger than 200 MB. Therefore, I have used GitLFS tools to upload it online for the website rendering purpose.
 
 ## Chart-1
 We can use a vegachart HTML tag like so:
 
-```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/dashboarding.json" style="width: 100%"></vegachart>
-```
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/fp_1.json" style="width: 100%"></vegachart>
 
