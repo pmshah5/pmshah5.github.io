@@ -61,7 +61,7 @@ Interactive visualization 1
 
 Interactive Visuzlization 2
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/fp_2.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/fp_12.json" style="width: 100%"></vegachart>
    
 
 ## Chart-3
