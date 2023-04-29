@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd0b7ad3111df0b6357b2c82cdb140ee51803ac52c168196e37baf497098efc1
+size 1277
+=======
+{"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-ee80cdf1d9bb3342bd043c0cdf34ade2"}, "mark": "bar", "encoding": {"tooltip": [{"field": "prim_contributory_cause", "type": "quantitative"}], "x": {"field": "index", "sort": "-y", "type": "nominal"}, "y": {"field": "prim_contributory_cause", "type": "quantitative"}}, "title": "Top 10 Primary Causes of Crashes", "width": 400, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-ee80cdf1d9bb3342bd043c0cdf34ade2": [{"index": "FAILING TO YIELD RIGHT-OF-WAY", "prim_contributory_cause": 15261}, {"index": "FOLLOWING TOO CLOSELY", "prim_contributory_cause": 11821}, {"index": "IMPROPER OVERTAKING/PASSING", "prim_contributory_cause": 7208}, {"index": "NOT APPLICABLE", "prim_contributory_cause": 6881}, {"index": "FAILING TO REDUCE SPEED TO AVOID CRASH", "prim_contributory_cause": 5502}, {"index": "DRIVING SKILLS/KNOWLEDGE/EXPERIENCE", "prim_contributory_cause": 5110}, {"index": "IMPROPER TURNING/NO SIGNAL", "prim_contributory_cause": 4618}, {"index": "IMPROPER BACKING", "prim_contributory_cause": 4529}, {"index": "IMPROPER LANE USAGE", "prim_contributory_cause": 4436}, {"index": "DISREGARDING TRAFFIC SIGNALS", "prim_contributory_cause": 2980}]}}
+>>>>>>> c451b8581df8591d989d6aadb4d988f8f2dff57b
