@@ -49,11 +49,11 @@ While looking at the crash trend from 2015-2022, number of crashes were increasi
 - While creating json file using the filter dataset, I also struggled due to large file size. Interactive json file for 2nd and 3rd chart is larger than 200 MB. Therefore, I have used GitLFS tools to upload it online for the website rendering purpose.
 
 ## Chart-1
-We can use a vegachart HTML tag like so:Check
+
 
 Interactive visualization 1
 
-<vegachart schema-url="https://github.com/pmshah5/pmshah5.github.io/raw/main/assets/json/fp_1.json" style="width: 100%"></vegachart>
+<vegachart schema-url="https://github.com/pmshah5/pmshah5.github.io/raw/main/assets/json/fp_2.json" style="width: 100%"></vegachart>
 
 
 
@@ -62,17 +62,32 @@ Interactive visualization 1
 Interactive Visuzlization 2
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/fp_12.json" style="width: 100%"></vegachart>
+
+## Chart-3
+
+
+Interactive visualization 1
+
+<vegachart schema-url="https://github.com/pmshah5/pmshah5.github.io/raw/main/assets/json/fp_3.json" style="width: 100%"></vegachart>
+
+
+
+## Write Up about Visualization.
+
+The overall aim for the visualization is to provide various interactive charts and maps which provide detailed insights into Crash data for 2022 and 2023 data for Chicago. 
+
+Chart-1 displays the 
    
 
 ## Chart-3
 
 ### Contexual Visualizations
 
-- Champaign County Traffic Crash Dashboard
+1. Champaign County Traffic Crash Dashboard
 ![Traffic Crash Dashboard, Champaign County](/assets/pngs/fld.png)
-[Link for the Dashboard](https://crashdashboard.ccrpc.org/)
+[Source Link](https://crashdashboard.ccrpc.org/)
 
-- Florida Crash Dashboard
+2. Florida Crash Dashboard
 ![Traffic Crash Dashboard, Florida State](/assets/pngs/Champ_dashboard.png)
-[Link for the Dashboard](https://www.flhsmv.gov/traffic-crash-reports/crash-dashboard/)
+[Source Link](https://www.flhsmv.gov/traffic-crash-reports/crash-dashboard/)
 
