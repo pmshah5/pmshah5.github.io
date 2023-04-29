@@ -78,6 +78,8 @@ The overall aim for the visualization is to provide various interactive charts a
 Chart-1 displays the bar chart of primary cause of crash. Here top 10 causes for crash is shortlisted according to number of the crashes.The 'top_causes' variable is a Pandas created to count of the top 10 primary contributory causes of crashes in Chicago with number of Crashes. There are highest number of crashes caused by ' Failing to Yield- Right of Way' with 1817 crashes. While you hover over the column, it will shows the number of crashes in the selected column type -- one of top 10 primary contributor for crash.
 
 Chart-2 displays the spatial distribution of the crashes in the Chicago area. With hovering interactivity, it will allow you to check the information about the primary cause of crash,year and crash type.
+
+Chart-3 shows horizontal bar graph of Crash occurance hour. It shows how the crashes are distrubted throughout the 24 hours of the day. Highest number of crashes are occuring duirng the evening peak hours which is 3:00 PM to 6:00 PM.
    
 
 ## Chart-3
